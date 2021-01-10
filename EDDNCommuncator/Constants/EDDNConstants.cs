@@ -17,6 +17,11 @@ namespace EDDNCommunicator.Constants
             /// The EDDN base port.
             /// </summary>
             public const int EDDNPort = 9500;
+
+            /// <summary>
+            /// The default timeout when receving a message from the socket connection.
+            /// </summary>
+            public const double DefaultTimeout = 3.0;
         }
     }
 }
